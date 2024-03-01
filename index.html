@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyboard Code</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container{
+            border: 2px solid gray;
+            /* padding: 10px; */
+            box-shadow: 0 0 10px 0 black;
+        }
+        .container h1{
+            font-size: 40px;
+            font-weight: 700;
+            padding: 0 100px;
+        }
+
+        .green {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Press Any Keyboard Key</h1>
+    </div>
+    <h1 id="code" style="font-size: 100px;" class="green"></h1>
+
+    <script src="script.js"></script>
+</body>
+</html>
